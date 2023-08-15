@@ -7,6 +7,7 @@ Description
 給定西元年和一個月份，請求出該月有幾天
 
 Input: $\quad$ 1900 2
+
 Output: $\quad$ 28
 
 **Q2 新手訓練 ~ for + if:**
@@ -19,16 +20,23 @@ Description
 Input:
 
 4
+
 1 2 3
+
 2 2 3
+
 3 2 3
+
 4 2 3 
 
 Output:
 
 5
+
 -1
+
 6
+
 0
 
 
