@@ -10,7 +10,7 @@ $\quad$ Input: 76
 
 $\quad$ Output: 1,2,1,1
 
-**Q2: 閏年判斷**
+**Q2: 閏年判斷(A little bit hard)**
 
 Description: 給定一個西元年，如果是閏年則回答1，反之則0。
 
