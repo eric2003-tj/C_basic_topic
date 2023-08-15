@@ -12,15 +12,15 @@ $\quad$ Output: 1,2,1,1
 
 **Q2: 閏年判斷**
 
-Description: 給定一個西元年，如果是閏年則回答yes，反之則no。
+Description: 給定一個西元年，如果是閏年則回答1，反之則0。
 
 Example:
 
 $\quad$ Input: 2000
 
-$\quad$ Output: yes
+$\quad$ Output: 1
 <hr />
 
 $\quad$ Input: 1900
 
-$\quad$ Output: no
+$\quad$ Output: 0
