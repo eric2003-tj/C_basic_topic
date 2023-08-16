@@ -99,7 +99,7 @@ int main(){
 **for**
 
 ```
-for(intitialization;constraint;iteration){
+for(initialization;constraint;iteration){
   statement
 }
 ```
@@ -107,7 +107,7 @@ for(intitialization;constraint;iteration){
 example:
 
 ```
-include <stdio.h>
+#include <stdio.h>
 
 int main(){
      int i;
@@ -123,7 +123,7 @@ int main(){
 example:
 
 ```
-include <stdio.h>
+#include <stdio.h>
 
 int main(){
      int i;
@@ -145,7 +145,7 @@ int main(){
 example:
 
 ```
-include <stdio.h>
+#include <stdio.h>
 
 int main(){
      int i;
