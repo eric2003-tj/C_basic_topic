@@ -7,8 +7,10 @@
 
 **q2 card shuffling(challenging)**
 
-Task Description
+Task Description:
+
 Write a program to simulate shuffling a deck of cards. We will use an array of pointers to represent a deck of card. A card is an integer from 1 to 10000, and the i-th element of this array represent the i-th card in a deck of cards. That is, if the i-th card in the deck is 6, then the i-th pointer in the pointer will point to an integer whose value is 6. If a pointer has "NULL" then it is the end of deck, and there are no more cards after it, so it is like an "end of deck". We also assume that there will be no more than 9999 cards in a deck.
+
 
 Now we want to shuffle a deck of cards. First we cut the deck into two halves. The first half has the first ceilr(n/2) cards and the second half has the remaining cards. For example, if there are 9 cards then the first half has 5 cards anf the second half has 4 cards. Then we shuffle these two halves into one by placing the first card from the first half as the first card, the first card from the second half as the second card, the second card from the first half as the third card, etc. That is, we interleave these two halves back into a deck of cards. The prototype of this shuffling function is as follows.
 
