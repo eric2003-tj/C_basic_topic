@@ -71,7 +71,7 @@ example : dereference
 
 ```
 int i = 3;
-int *iptr;
+int *iptr = &i;
 printf("%d",*iptr); // 3
 ```
 
