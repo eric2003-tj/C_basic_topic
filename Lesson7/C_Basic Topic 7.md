@@ -1,4 +1,16 @@
 # C_Basic Topic 7
+## 字元操作
+
+我們通常會對個別字元進行操作，而為了如此，我們要引入<ctype.h>
+
+|字元函式|成效|
+|toupper|變大寫|
+|tolower|變小寫|
+|isalpha|英文字母|
+|isalnum|英文字母或數字|
+|islower|判斷大寫|
+|isupper|判斷小寫|
+|isdigit|判斷數字|
 
 ## 字串介紹
 
