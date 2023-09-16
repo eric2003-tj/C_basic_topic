@@ -25,14 +25,14 @@ typedef struct student Student;
 #include <stdlib.h>
 
 typedef struct student{
-  char *name;
+  char name[10];
   int age;
   int id;
 }Student;
 
 int main(){
   Student jack;
-  scanf("%s%d%d",jack.name,jack.age,jack.id);
+  scanf("%s%d%d",jack.name,&jack.age,&jack.id);
   printf("%s\n%d\n%d\n",jack.name,jack.age,jack.id);
   return 0;
 }
