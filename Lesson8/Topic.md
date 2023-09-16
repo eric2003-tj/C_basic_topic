@@ -68,3 +68,31 @@ int main(){
   return 0;
 }
 ```
+
+## elementary data structure via structure
+
+**Linked list**
+
+Linked list is a data structure that can connect node via pointer.
+
+declaration:
+
+```
+struct node{
+  int data;
+  struct node* ptr;
+}
+```
+**Doubly linked list**
+
+You can also use a doubly linked list to better meet your demand.
+
+declaration:
+
+```
+struct node{
+  int data;
+  struct node* forward;
+  struct node* backward;
+}
+```
