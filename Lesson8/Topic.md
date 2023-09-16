@@ -37,3 +37,34 @@ int main(){
   return 0;
 }
 ```
+## Structure array
+
+structure array 可以用malloc 宣告
+
+```
+Student *array = (Student*)malloc(sizeof(Student)*10); //declare an array of length 10.
+```
+
+**Example**
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct student{
+  char name[10];
+  int age;
+  int id;
+}Student;
+
+int main(){
+  Student *arr = (Student*)malloc(sizeof(Student)*10);
+  for(int i = 0;i<10;i++){
+    scanf("%s%d%d",arr[i].name,&arr[i].age,&arr[i].id);
+  }
+  for(int i = 0;i<10;i++){
+    printf("%s %d %d\n",arr[i].name,arr[i].age,arr[i].id);
+  }
+  return 0;
+}
+```
