@@ -99,3 +99,11 @@ while(scanf("%d",&data)!=EOF){
     process data
 }
 ```
+
+### 用指令編譯c程式檔(optional)
+
+```
+gcc main.c -o main
+./main < input.txt > output.txt
+cat output.txt
+```
