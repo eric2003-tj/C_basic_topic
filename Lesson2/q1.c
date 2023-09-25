@@ -5,10 +5,10 @@ int main(){
   scanf("%d",&t)
   for(int i = 2;i*i<=t;i++){
     if(t % i == 0){
-      printf("yes");
+      printf("no");
       break;
     }   
   }
-  printf("no");
+  printf("yes");
   return 0;
 }
