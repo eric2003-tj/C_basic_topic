@@ -1,38 +1,35 @@
 # C_Basic Topic 9
 
-## Basic C++
+## File IO
 
-In C++, we will include <iostream> to handle the IO in C++.
+Sometimes we want to use C program to handle IO of File, in C, we can use file pointer to represent a file(In Linux C, we use file descriptor fd)
 
 ```
-#include <iostream>
+FILE *in;
+```
+
+### fopen
+
+We can use fopen to open a file, and fclose works to close a file.
+
+```
+#include <stdio.h>
 
 int main(){
-  return 0;
+  FILE *in;
+  in = fopen("input.txt","r") // read only
+  fclose(in);
 }
 ```
+#### mode
 
-## Variable declaration
+<img src = "./file.png"/>
 
 
-```
-int i{5};
-int j = 9;
-float x = 7.8;
-```
+### fscanf,fprintf
 
-## IO
+We can use fscanf to read a string from a file
 
-```
-int i;
-cin >> i;
-cout << i;
-```
 
-## if-else and flow control
 
-Same as previous in C.
 
-## Practice
-
-Please rewrite homework in HW1-3 using C++.
