@@ -124,3 +124,24 @@ int main(){
   fclose(out);
 }
 ```
+
+### fread
+
+You can use fread() to read a binary file
+
+```
+#include <stdio.h>
+
+int main(){
+  FILE *fp;
+  int test[5];
+  fp = fopen("test.bin","rb");
+  for(int i = 0;i<5;i++){
+    fread(&test[i],sizeof(int),1,fp);
+  }
+  for(int i = 0;i<5;i++){
+    printf("%d\n",test[i]);
+  }
+  fclose(fp);
+}
+```
